@@ -1,0 +1,20 @@
+[package]
+name = "ubervisord"
+version = "0.1.0"
+authors = ["Gilad Naaman <gilad@naaman.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ubervisor-core = { path = "../ubervisor-core" }
+clap = "2.33.3"
+env_logger = "0.8.3"
+log = "0.4.14"
+nix = "0.20.0"
+serde = { version = "1.0.124", features = ["derive"] }
+tokio = { version = "1.3.0", features = ["full"] }
+toml = "0.5.8"
+hyperlocal = "0.8"
+hyper = "0.14.4"
+serde_json = "1.0.64"

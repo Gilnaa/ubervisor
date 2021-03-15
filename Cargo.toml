@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "ubervisord",
+    "ubervisorctl",
+    "ubervisor-core",
+]

@@ -1,0 +1,3 @@
+[programs.florp]
+command="watch -n10 ls"
+stdout="/tmp/foo.log"
